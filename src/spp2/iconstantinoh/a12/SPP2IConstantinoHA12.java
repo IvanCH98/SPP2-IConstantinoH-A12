@@ -19,7 +19,7 @@ public class SPP2IConstantinoHA12 {
     double e, p, imc;
     e= metodillo("Introduce la estatura");
     p= metodillo ("Introduce el peso");
-    imc= p/ Math.pow (p,2);
+    imc= p/ Math.pow (e,2);
     JOptionPane.showMessageDialog (null, "Tu imc es"+ imc);
     
     

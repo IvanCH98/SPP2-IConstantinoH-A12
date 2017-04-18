@@ -20,7 +20,14 @@ public class SPP2IConstantinoHA12 {
     e= metodillo("Introduce la estatura");
     p= metodillo ("Introduce el peso");
     imc= p/ Math.pow (e,2);
-    JOptionPane.showMessageDialog (null, "Tu imc es"+ imc);
+    if (imc > 25){
+            JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en sobrepeso");
+        }else if (imc < 18){
+         JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en desn");
+        }else {
+            JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en peso normal");
+}
+   
     
     
     }

@@ -23,7 +23,7 @@ public class SPP2IConstantinoHA12 {
     if (imc > 25){
             JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en sobrepeso");
         }else if (imc < 18){
-         JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en desn");
+         JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en desnutrición");
         }else {
             JOptionPane.showMessageDialog (null, "Tu imc es "+ imc+ " Estas en peso normal");
 }
